@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Love Was the Recipe</title>
+  <meta name="description" content="Preserving the people you love through the food they made for you with love." />
+  <style>
+    :root{
+      --cream:#F5EFE6;
+      --ink:#2E2926;
+      --muted:#6E635C;
+      --terracotta:#B95F47;
+      --paper:#FFFDF9;
+      --line:#D8CEC4;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.55}
+    .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:24px 0;border-bottom:1px solid rgba(46,41,38,.12)}
+    .brand{font-size:18px;font-weight:700;letter-spacing:.02em}
+    nav a{color:var(--ink);text-decoration:none;margin-left:18px;font-size:14px}
+    .hero{padding:72px 0 64px;display:grid;grid-template-columns:1fr 1.05fr;gap:48px;align-items:center}
+    .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:12px;font-weight:700;color:var(--terracotta);margin-bottom:18px}
+    h1{margin:0 0 24px;font-family:Georgia,'Times New Roman',serif;font-size:clamp(52px,8vw,92px);line-height:.96;font-weight:500;letter-spacing:-.04em}
+    .lead{font-family:Georgia,'Times New Roman',serif;font-size:clamp(22px,3vw,31px);line-height:1.25;max-width:720px;margin:0 0 28px}
+    .sub{max-width:680px;color:var(--muted);font-size:17px}
+    .hero-img{width:100%;display:block;border-radius:24px;border:1px solid rgba(46,41,38,.08);box-shadow:0 14px 34px rgba(46,41,38,.08)}
+    section{padding:72px 0;border-top:1px solid rgba(46,41,38,.10)}
+    .section-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px}
+    h2{font-family:Georgia,'Times New Roman',serif;font-size:42px;line-height:1.05;margin:0;font-weight:500}
+    .copy{font-size:18px;max-width:720px}
+    .copy p{margin-top:0;margin-bottom:18px}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .card{background:rgba(255,253,249,.65);border:1px solid var(--line);border-radius:18px;padding:24px}
+    .num{width:34px;height:34px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;background:var(--terracotta);color:#fff;font-weight:700;margin-bottom:16px}
+    .card h3{margin:0 0 8px;font-size:18px}
+    .card p{margin:0;color:var(--muted)}
+    .quote{font-family:Georgia,'Times New Roman',serif;font-size:clamp(28px,4vw,48px);line-height:1.2;max-width:900px;margin:0}
+    .cta{background:var(--ink);color:var(--paper);border-radius:28px;padding:46px;display:flex;justify-content:space-between;gap:32px;align-items:center}
+    .cta h2{font-size:38px}
+    .cta p{color:#D9D0C8;max-width:620px;margin:12px 0 0}
+    .btn{display:inline-block;background:var(--paper);color:var(--ink);text-decoration:none;font-weight:700;padding:14px 18px;border-radius:999px;white-space:nowrap}
+    footer{padding:32px 0 46px;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;color:var(--muted);font-size:14px}
+    footer a{color:var(--muted);text-decoration:none;margin-right:14px}
+    @media(max-width:800px){
+      .hero,.section-grid{grid-template-columns:1fr}
+      .steps{grid-template-columns:1fr}
+      .cta{flex-direction:column;align-items:flex-start}
+      nav{display:none}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">Love Was the Recipe</div>
+      <nav><a href="#about">About</a><a href="#how">How it works</a><a href="#follow">Follow</a></nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <div class="eyebrow">Food • Memory • Legacy</div>
+          <h1>Love Was<br/>the Recipe.</h1>
+          <p class="lead">We preserve the people you love through the food they made for you with love.</p>
+          <p class="sub">Some recipes live on paper. The important ones often live in someone’s hands—how the dough should feel, when the sauce is ready, the ingredient they never measured. Love Was the Recipe is about keeping those things from disappearing.</p>
+        </div>
+        <div>
+          <img class="hero-img" src="love-was-the-recipe-hero.png" alt="Flour shaped into a heart beside a Love Was the Recipe card on a wooden table" />
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="section-grid">
+          <h2>The recipe is the doorway. The person is the story.</h2>
+          <div class="copy">
+            <p>It might be your grandmother’s pierogi. Your dad’s sauce. Your aunt’s salad. Someone else’s mother’s Béarnaise that changed the way you tasted tarragon forever.</p>
+            <p>The dish doesn’t need to be fancy. It needs to mean something.</p>
+            <p>We’re building a place to preserve the tactile, unwritten parts of family cooking—the moves, the memories, the stories, and the love that came with being fed.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="how">
+        <div class="section-grid">
+          <h2>How it begins</h2>
+          <div class="steps">
+            <div class="card"><div class="num">1</div><h3>A person with a dish</h3><p>Someone shares the recipe they’re known for—and why it matters.</p></div>
+            <div class="card"><div class="num">2</div><h3>A table of learners</h3><p>People cook alongside them and learn the details no recipe card can capture.</p></div>
+            <div class="card"><div class="num">3</div><h3>A legacy preserved</h3><p>The recipe, technique, story, and person become something others can carry forward.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section><p class="quote">“The food is the portal. The person is the story. The memory is what we carry forward.”</p></section>
+
+      <section id="follow">
+        <div class="cta">
+          <div>
+            <h2>We’re just getting started.</h2>
+            <p>Follow along as Love Was the Recipe takes shape—one dish, one person, one memory at a time.</p>
+          </div>
+          <a class="btn" href="https://www.instagram.com/lovewastherecipe/" target="_blank" rel="noopener">Follow on Instagram</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>© 2026 Love Was the Recipe</div>
+      <div>
+        <a href="https://www.facebook.com/lovewastherecipe" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.threads.net/@lovewastherecipe" target="_blank" rel="noopener">Threads</a>
+        <a href="https://www.tiktok.com/@lovewastherecipe" target="_blank" rel="noopener">TikTok</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
