@@ -1,119 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Love Was the Recipe</title>
-  <meta name="description" content="Preserving the people you love through the food they made for you with love." />
-  <style>
-    :root{
-      --cream:#F5EFE6;
-      --ink:#2E2926;
-      --muted:#6E635C;
-      --terracotta:#B95F47;
-      --paper:#FFFDF9;
-      --line:#D8CEC4;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.55}
-    .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
-    header{display:flex;align-items:center;justify-content:space-between;padding:24px 0;border-bottom:1px solid rgba(46,41,38,.12)}
-    .brand{font-size:18px;font-weight:700;letter-spacing:.02em}
-    nav a{color:var(--ink);text-decoration:none;margin-left:18px;font-size:14px}
-    .hero{padding:72px 0 64px;display:grid;grid-template-columns:1fr 1.05fr;gap:48px;align-items:center}
-    .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:12px;font-weight:700;color:var(--terracotta);margin-bottom:18px}
-    h1{margin:0 0 24px;font-family:Georgia,'Times New Roman',serif;font-size:clamp(52px,8vw,92px);line-height:.96;font-weight:500;letter-spacing:-.04em}
-    .lead{font-family:Georgia,'Times New Roman',serif;font-size:clamp(22px,3vw,31px);line-height:1.25;max-width:720px;margin:0 0 28px}
-    .sub{max-width:680px;color:var(--muted);font-size:17px}
-    .hero-img{width:100%;display:block;border-radius:24px;border:1px solid rgba(46,41,38,.08);box-shadow:0 14px 34px rgba(46,41,38,.08)}
-    section{padding:72px 0;border-top:1px solid rgba(46,41,38,.10)}
-    .section-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px}
-    h2{font-family:Georgia,'Times New Roman',serif;font-size:42px;line-height:1.05;margin:0;font-weight:500}
-    .copy{font-size:18px;max-width:720px}
-    .copy p{margin-top:0;margin-bottom:18px}
-    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-    .card{background:rgba(255,253,249,.65);border:1px solid var(--line);border-radius:18px;padding:24px}
-    .num{width:34px;height:34px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;background:var(--terracotta);color:#fff;font-weight:700;margin-bottom:16px}
-    .card h3{margin:0 0 8px;font-size:18px}
-    .card p{margin:0;color:var(--muted)}
-    .quote{font-family:Georgia,'Times New Roman',serif;font-size:clamp(28px,4vw,48px);line-height:1.2;max-width:900px;margin:0}
-    .cta{background:var(--ink);color:var(--paper);border-radius:28px;padding:46px;display:flex;justify-content:space-between;gap:32px;align-items:center}
-    .cta h2{font-size:38px}
-    .cta p{color:#D9D0C8;max-width:620px;margin:12px 0 0}
-    .btn{display:inline-block;background:var(--paper);color:var(--ink);text-decoration:none;font-weight:700;padding:14px 18px;border-radius:999px;white-space:nowrap}
-    footer{padding:32px 0 46px;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;color:var(--muted);font-size:14px}
-    footer a{color:var(--muted);text-decoration:none;margin-right:14px}
-    @media(max-width:800px){
-      .hero,.section-grid{grid-template-columns:1fr}
-      .steps{grid-template-columns:1fr}
-      .cta{flex-direction:column;align-items:flex-start}
-      nav{display:none}
-    }
-  </style>
-</head>
-<body>
-  <div class="wrap">
-    <header>
-      <div class="brand">Love Was the Recipe</div>
-      <nav><a href="#about">About</a><a href="#how">How it works</a><a href="#follow">Follow</a></nav>
-    </header>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Love Was the Recipe | Food, Memory & Legacy</title>
+<meta name="description" content="Preserving the people you love through the food they made for you with love. Discover heritage recipe masters, cooking experiences, and the stories behind beloved dishes.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f4ed;--paper:#e8e0d5;--ink:#302923;--accent:#9e533f;--muted:#6c6159;--line:#c9bfb2;--dark:#372b26}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--bg);font-family:'DM Sans',Arial,sans-serif;font-size:16px;transition:background .25s,color .25s}.container{width:min(1150px,calc(100% - 52px));margin:auto}header{height:86px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.wordmark{font-family:'Newsreader',Georgia,serif;font-size:25px;letter-spacing:-.03em}.smallnav{font-size:12px;text-transform:uppercase;letter-spacing:.11em}.smallnav a{margin-left:27px;text-decoration:none;color:var(--ink)}.kicker{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:700;color:var(--accent)}h1,h2,h3,.display,.quote{font-family:'Newsreader',Georgia,serif;font-weight:400;letter-spacing:-.045em}h1{font-size:clamp(68px,10.2vw,148px);line-height:.86;margin:26px 0 34px}h2{font-size:clamp(43px,5.1vw,74px);line-height:1.02;margin:12px 0 26px}p{line-height:1.7}.hero{display:grid;grid-template-columns:1.17fr .83fr;gap:40px;padding:72px 0 94px;align-items:center}.lead{font:400 clamp(26px,3vw,41px)/1.22 'Newsreader',Georgia,serif;letter-spacing:-.015em;max-width:610px;margin:0 0 22px}.description{color:var(--muted);max-width:570px}.picture{aspect-ratio:1369 / 1149;background:var(--paper);position:relative;overflow:hidden}.picture img{width:100%;height:100%;object-fit:cover;display:block}.band{border-block:1px solid var(--line);padding:22px 0;display:flex;justify-content:space-between;gap:20px;font-size:11px;letter-spacing:.16em;text-transform:uppercase}.section{padding:100px 0;border-bottom:1px solid var(--line)}.two{display:grid;grid-template-columns:35% 1fr;gap:10%}.intro{font:400 24px/1.43 'Newsreader',Georgia,serif}.narrative{max-width:740px}.narrative p{font-size:18px;margin:0 0 22px}.pullquote{font:400 clamp(35px,4.1vw,60px)/1.12 'Newsreader',Georgia,serif;letter-spacing:-.03em;margin:46px 0;padding-left:26px;border-left:3px solid var(--accent)}.story{padding-top:110px}.story .chapter{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}.story-hero{display:grid;grid-template-columns:.9fr 1.1fr;gap:9%;padding:35px 0 30px}.story-hero h2{font-size:clamp(53px,6vw,85px)}.story-passage{max-width:670px;margin-left:auto}.story-passage p{font-size:20px;line-height:1.72}.emphasis{font:400 clamp(33px,4.4vw,57px)/1.12 'Newsreader',Georgia,serif;margin:36px 0;color:var(--accent)}.offer{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:38px}.offercard{border-top:2px solid var(--accent);padding-top:18px}.offercard h3{font-size:34px;margin:12px 0}.offercard p{color:var(--muted);margin-top:0}.offercard{display:flex;flex-direction:column}.offercard h3{min-height:86px;display:flex;align-items:flex-start}.num{font-size:12px;font-weight:700;color:var(--accent)}.close{background:var(--dark);color:var(--bg);padding:100px 0;margin-top:65px}.close h2{max-width:800px}.close p{max-width:640px;font-size:17px;color:var(--bg);opacity:.82}.site-footer{padding:30px 0 50px;display:flex;justify-content:space-between;font-size:12px;color:var(--muted)}@media(max-width:800px){.container{width:min(100% - 34px,600px)}.hero,.two,.story-hero{grid-template-columns:1fr;gap:20px}.hero{padding:45px 0}.picture{aspect-ratio:1369 / 1149}.section{padding:65px 0}.story{padding-top:65px}.story-passage{margin-left:0}.offer{grid-template-columns:1fr}.offercard h3{min-height:0}.smallnav{display:none}.close{padding:65px 0}.band{flex-direction:column}.story-passage p{font-size:18px}h1{font-size:clamp(58px,14vw,90px)}}
 
-    <main>
-      <section class="hero">
-        <div>
-          <div class="eyebrow">Food • Memory • Legacy</div>
-          <h1>Love Was<br/>the Recipe.</h1>
-          <p class="lead">We preserve the people you love through the food they made for you with love.</p>
-          <p class="sub">Some recipes live on paper. The important ones often live in someone’s hands—how the dough should feel, when the sauce is ready, the ingredient they never measured. Love Was the Recipe is about keeping those things from disappearing.</p>
-        </div>
-        <div>
-          <img class="hero-img" src="love-was-the-recipe-hero.png" alt="Flour shaped into a heart beside a Love Was the Recipe card on a wooden table" />
-        </div>
-      </section>
+/* Match description baselines while keeping all headings top-aligned. */
+@media (min-width:801px){
+  .offercard{display:grid;grid-template-rows:20px 104px auto;align-content:start;}
+  .offercard h3{min-height:0;margin:12px 0 0;display:block;line-height:1.12;}
+  .offercard p{margin:0;}
+}
+.social-links{display:flex;flex-wrap:wrap;gap:10px 24px}.social-links a{color:var(--ink);font-weight:600;text-decoration:none}.social-links a:hover,.social-links a:focus-visible,.smallnav a:hover{text-decoration:underline;text-underline-offset:4px}.site-footer{align-items:center;gap:22px;flex-wrap:wrap}@media(max-width:800px){.social-links{gap:12px 20px}.site-footer{flex-direction:column;align-items:flex-start}}
+</style></head><body>
+<div class="container"><header><div class="wordmark">Love Was the Recipe</div><nav class="smallnav"><a href="#story">Our story</a><a href="#experience">The experience</a><a href="#connect">Connect</a></nav></header>
+<main><section class="hero"><div><div class="kicker">The art of remembering through food</div><h1>Love Was<br>the Recipe.</h1><p class="lead">We preserve the people you love through the food they made for you with love.</p><p class="description">The dishes we never forgot. The people who made them. The little moves that never made it onto paper.</p></div><div class="picture"><img src="love-was-the-recipe-hero.jpg" alt="A heart drawn in flour on a wooden table beside a handwritten Love Was the Recipe card" loading="eager"></div></section></main></div>
+<div class="band container"><span>Food</span><span>Memory</span><span>People</span><span>Legacy</span></div>
+<div class="container"><section class="section two"><div><div class="kicker">A familiar feeling</div><h2>Everybody has a “best.”</h2></div><div class="narrative"><p class="intro">“My mother made the best.” “My dad made the best.” “Nobody could make it like my grandmother.”</p><p>We remember those dishes for a reason. Not only for how they tasted, but for who made them, where we ate them, and the love that came with being fed.</p><p>And sometimes, the person who knew exactly how to make them is no longer there to ask.</p></div></section>
+<section id="story" class="section story"><div class="chapter">01 / The founder's story</div><div class="story-hero"><div><h2>I just ate them happily.</h2><div class="kicker">Baba's pierogi</div></div><div class="story-passage"><p>I can't count how many times I've wished I could have Baba's pierogi again.</p><p>She made them with such ease. A pile of flour. Water. A salad fork. Fillings ready to go. Her fingers moved quickly, packing the dough with filling, pinching and crimping the edges, and moving the pierogi in and out of boiling water.</p><p>She made it look effortless.</p><p>I never sat down and learned to make them with her.</p><div class="emphasis">I just ate them happily.</div><p>Years later, my sisters and I still talk about those pierogi. I've tried to recreate them, but I think I've only gotten truly close once. What we wouldn't give to make them with her again.</p><p>That's where Love Was the Recipe begins: with the recipes we miss, the people who made them, and the knowledge worth passing on.</p></div></div></section>
+<section id="experience" class="section"><div class="kicker">02 / What we're building</div><h2>More than a cooking class.</h2><p style="max-width:760px">We're developing experiences led by heritage recipe masters: the people in our families and communities whose dishes earned the ultimate compliment — <em>they make the best.</em></p><div class="offer"><article class="offercard"><span class="num">01</span><h3>At the Table</h3><p>Small in-person classes to watch, learn, ask questions, and discover the technique behind a beloved dish.</p></article><article class="offercard"><span class="num">02</span><h3>From Their Kitchen to Yours</h3><p>Live-streamed sessions with advance ingredient and equipment lists. Cook along from home, or join for the story and demonstration.</p></article><article class="offercard"><span class="num">03</span><h3>The Collection</h3><p>Contributed recipes and their stories preserved in recipe cards and, over time, curated hardcover cookbooks.</p></article></div></section></div>
+<section class="close"><div class="container"><div class="kicker" style="color:#dbc4b8">The idea behind it all</div><h2>The recipe is the doorway. The person is the story.</h2><p>The class preserves the technique. The story preserves the person. The collection preserves the legacy.</p></div></section><footer id="connect" class="site-footer container"><span>© 2026 Love Was the Recipe</span><nav class="social-links" aria-label="Social media"><a href="https://www.instagram.com/lovewastherecipe/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.facebook.com/lovewastherecipe" target="_blank" rel="noopener noreferrer">Facebook ↗</a><a href="https://www.threads.net/@lovewastherecipe" target="_blank" rel="noopener noreferrer">Threads ↗</a><a href="https://www.tiktok.com/@lovewastherecipe" target="_blank" rel="noopener noreferrer">TikTok ↗</a></nav></footer>
 
-      <section id="about">
-        <div class="section-grid">
-          <h2>The recipe is the doorway. The person is the story.</h2>
-          <div class="copy">
-            <p>It might be your grandmother’s pierogi. Your dad’s sauce. Your aunt’s salad. Someone else’s mother’s Béarnaise that changed the way you tasted tarragon forever.</p>
-            <p>The dish doesn’t need to be fancy. It needs to mean something.</p>
-            <p>We’re building a place to preserve the tactile, unwritten parts of family cooking—the moves, the memories, the stories, and the love that came with being fed.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="how">
-        <div class="section-grid">
-          <h2>How it begins</h2>
-          <div class="steps">
-            <div class="card"><div class="num">1</div><h3>A person with a dish</h3><p>Someone shares the recipe they’re known for—and why it matters.</p></div>
-            <div class="card"><div class="num">2</div><h3>A table of learners</h3><p>People cook alongside them and learn the details no recipe card can capture.</p></div>
-            <div class="card"><div class="num">3</div><h3>A legacy preserved</h3><p>The recipe, technique, story, and person become something others can carry forward.</p></div>
-          </div>
-        </div>
-      </section>
-
-      <section><p class="quote">“The food is the portal. The person is the story. The memory is what we carry forward.”</p></section>
-
-      <section id="follow">
-        <div class="cta">
-          <div>
-            <h2>We’re just getting started.</h2>
-            <p>Follow along as Love Was the Recipe takes shape—one dish, one person, one memory at a time.</p>
-          </div>
-          <a class="btn" href="https://www.instagram.com/lovewastherecipe/" target="_blank" rel="noopener">Follow on Instagram</a>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div>© 2026 Love Was the Recipe</div>
-      <div>
-        <a href="https://www.facebook.com/lovewastherecipe" target="_blank" rel="noopener">Facebook</a>
-        <a href="https://www.threads.net/@lovewastherecipe" target="_blank" rel="noopener">Threads</a>
-        <a href="https://www.tiktok.com/@lovewastherecipe" target="_blank" rel="noopener">TikTok</a>
-      </div>
-    </footer>
-  </div>
-</body>
-</html>
+</body></html>
